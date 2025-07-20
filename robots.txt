@@ -1,0 +1,24 @@
+User-agent: *
+
+# ❌ Block non-SEO or utility pages
+Disallow: /about.html
+Disallow: /contact.html
+Disallow: /privacy.html
+Disallow: /terms.html
+
+
+# ❌ Block non-content folders
+Disallow: /assets/
+Disallow: /ads/
+
+# ✅ Allow SEO-relevant pages & all blog posts inside /blog/
+Allow: /index.html
+Allow: /blog.html
+Allow: /blog/
+Allow: /influencers.html
+
+# ✅ Attach Sitemap for full structure
+Sitemap: https://instalkgram.com/sitemap.xml
+
+# 📉 Optional delay (helps on shared hosting)
+Crawl-delay: 1

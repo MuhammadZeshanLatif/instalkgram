@@ -1,0 +1,291 @@
+/* Instagram-style Hero Mockup CSS */
+.hero-mockup-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding: 2rem;
+}
+
+.phone-mockup {
+    position: relative;
+    width: 280px;
+    height: 560px;
+    background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    border-radius: 35px;
+    padding: 20px 15px;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 0 8px rgba(255, 255, 255, 0.1),
+        inset 0 2px 4px rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
+
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.phone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 10px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.phone-time {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.phone-date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+
+.phone-battery {
+    width: 24px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    position: relative;
+}
+
+.phone-battery::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 3px;
+    width: 2px;
+    height: 6px;
+    background: #000;
+    border-radius: 0 1px 1px 0;
+}
+
+.phone-battery-fill {
+    width: 80%;
+    height: 100%;
+    background: #34c759;
+    border-radius: 1px;
+}
+
+.carousel-container {
+    position: relative;
+    height: calc(100% - 60px);
+    overflow: hidden;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+.carousel-slide:nth-child(1) {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.carousel-slide:nth-child(2) {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.carousel-slide:nth-child(3) {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.carousel-slide:nth-child(4) {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.carousel-slide:nth-child(5) {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.slide-content {
+    text-align: center;
+    color: white;
+}
+
+.slide-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.slide-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.slide-subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Floating Icons Animation */
+.floating-icon {
+    position: absolute;
+    font-size: 24px;
+    color: #007bff;
+    opacity: 0.7;
+    animation: float 3s ease-in-out infinite;
+    z-index: 5;
+}
+
+.floating-icon:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    animation-delay: 0s;
+    color: #e91e63;
+}
+
+.floating-icon:nth-child(2) {
+    top: 20%;
+    right: 10%;
+    animation-delay: 1s;
+    color: #ff9800;
+}
+
+.floating-icon:nth-child(3) {
+    bottom: 30%;
+    left: 10%;
+    animation-delay: 2s;
+    color: #4caf50;
+}
+
+.floating-icon:nth-child(4) {
+    bottom: 15%;
+    right: 20%;
+    animation-delay: 0.5s;
+    color: #2196f3;
+}
+
+.floating-icon:nth-child(5) {
+    top: 50%;
+    left: 5%;
+    animation-delay: 1.5s;
+    color: #9c27b0;
+}
+
+.floating-icon:nth-child(6) {
+    top: 60%;
+    right: 5%;
+    animation-delay: 2.5s;
+    color: #ff5722;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.7;
+    }
+    25% {
+        transform: translateY(-10px) rotate(5deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-20px) rotate(-5deg);
+        opacity: 0.8;
+    }
+    75% {
+        transform: translateY(-10px) rotate(3deg);
+        opacity: 1;
+    }
+}
+
+/* Pulse animation for icons */
+.floating-icon:hover {
+    animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-mockup-container {
+        min-height: 400px;
+        padding: 1rem;
+    }
+    
+    .phone-mockup {
+        width: 240px;
+        height: 480px;
+        padding: 15px 12px;
+    }
+    
+    .phone-header {
+        padding: 12px 15px 8px;
+    }
+    
+    .phone-time {
+        font-size: 14px;
+    }
+    
+    .phone-date {
+        font-size: 12px;
+    }
+    
+    .slide-icon {
+        font-size: 36px;
+    }
+    
+    .slide-title {
+        font-size: 16px;
+    }
+    
+    .slide-subtitle {
+        font-size: 12px;
+    }
+    
+    .floating-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .phone-mockup {
+        width: 200px;
+        height: 400px;
+    }
+    
+    .floating-icon {
+        font-size: 18px;
+    }
+}
+
