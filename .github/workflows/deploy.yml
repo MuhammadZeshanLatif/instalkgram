@@ -3,7 +3,7 @@ name: 🚀 Auto Deploy to Spaceship Hosting (instalkgram.com)
 on:
   push:
     branches:
-      - master  # <-- ✅ Yeh ab sahi hai
+      - master  # ya 'main' agar aapki branch ka naam woh hai
 
 jobs:
   ftp-deploy:
@@ -21,3 +21,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /instalkgram.com/
+          local-dir: ./                # ✅ Yeh line ensure karti hai ke folder na bane
