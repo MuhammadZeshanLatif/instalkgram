@@ -20,5 +20,4 @@ jobs:
           server: ftp.instalkgram.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /instalkgram.com/
-          local-dir: ./                # ✅ Yeh line ensure karti hai ke folder na bane
+          server-dir: ./
