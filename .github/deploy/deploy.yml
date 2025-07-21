@@ -1,0 +1,23 @@
+name: 🚀 Auto Deploy to Spaceship Hosting (instalkgram.com)
+
+on:
+  push:
+    branches:
+      - main  # Jab bhi main branch pe push hoga
+
+jobs:
+  ftp-deploy:
+    name: Upload to instalkgram.com folder
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Code checkout karo
+        uses: actions/checkout@v2
+
+      - name: 🚀 FTP se deploy karo
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.instalkgram.com                         # FTP host
+          username: ${{ secrets.FTP_USERNAME }}               # GitHub Secret
+          password: ${{ secrets.FTP_PASSWORD }}               # GitHub Secret
+          server-dir: /instalkgram.com/                       # ✅ Yeh ab correct path hai
