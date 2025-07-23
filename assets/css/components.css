@@ -268,7 +268,7 @@
 }
 
 .social-contact .social-link:hover {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 .recaptcha-placeholder {
