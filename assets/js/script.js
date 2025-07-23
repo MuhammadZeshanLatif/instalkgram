@@ -197,8 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
         shareOptions.classList.add('hidden');
     }
     
-    modal.querySelector('.modal-close').addEventListener('click', closeModal);
-    modal.querySelector('.modal-backdrop').addEventListener('click', closeModal);
+    // modal.querySelector('.modal-close').addEventListener('click', closeModal);
+    // modal.querySelector('.modal-backdrop').addEventListener('click', closeModal);
 
     // Close modal on Escape key
     document.addEventListener('keydown', (e) => {
