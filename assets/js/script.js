@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         posts.forEach((post, index) => {
             const isVideo = post.postType === 'video';
             const media = post.mediaUrls[0] || {};
-            const thumbnailUrl = media.thumbnail_url || media.url;
+            const thumbnailUrl = media.thumbnailUrl || media.url;
 
             const postItem = document.createElement('div');
             postItem.className = 'post-item';

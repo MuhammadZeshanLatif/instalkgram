@@ -595,7 +595,7 @@ function displayPosts(posts) {
     posts.forEach((post, index) => {
         const isVideo = post.postType === "video";
         const mediaUrl = post.mediaUrls[0]?.url;
-        const thumbnailUrl = post.mediaUrls[0]?.thumbnail_url || mediaUrl;
+        const thumbnailUrl = post.mediaUrls[0]?.thumbnailUrl || mediaUrl;
 
         const postItem = document.createElement("div");
         postItem.className = "post-item";
