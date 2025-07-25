@@ -117,9 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <i class="fas fa-play"></i>
                     </div>
                 ` : ''}
-                <div class="download-icon" title="Download">
+                <a href="${downloadUrl}" download="${filename}" class="download-icon" title="Download">
                     <i class="fas fa-download"></i>
-                </div>
+                </a>
             `;
             
             // Handle video play button click
