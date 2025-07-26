@@ -671,7 +671,7 @@ function downloadMedia(post) {
         const link = document.createElement("a");
         link.href = mediaUrl;
         link.download = `${post.username}_${post.shortcode || Date.now()}.${isVideo ? "mp4" : "jpg"}`;
-        link.target = "_blank";
+       
         link.rel = "noopener noreferrer";
 
         document.body.appendChild(link);
