@@ -713,6 +713,26 @@ section.how-to-section.view-intagram-story-section {
     background: #ffffff;
 }
 
+.related-articles.related-artical-image {
+    img {
+        height: 245px !important;
+    }
+}
 
+.more-storng {
+    font-weight: 700;
+}
+
+.clr-pnk {
+    color: var(--primary-color);
+}
+
+.privacy-article ul li {
+    font-weight: 700;
+}
+
+.less-strong li {
+    font-weight: 400 !important;
+}
 
 /*new sections*/

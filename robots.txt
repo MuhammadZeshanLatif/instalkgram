@@ -5,6 +5,7 @@ Disallow: /about.html
 Disallow: /contact.html
 Disallow: /privacy.html
 Disallow: /terms.html
+Disallow: influencers.html
 
 
 
@@ -17,7 +18,7 @@ Disallow: /ads/
 Allow: /index.html
 Allow: /blog.html
 Allow: /blog/
-Allow: /influencers.html
+Allow: /blog/instagram-privacy-protection-guide.html
 Allow: /stemap.xml
 
 # ✅ Attach Sitemap for full structure
