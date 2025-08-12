@@ -656,7 +656,7 @@ function openModal(post) {
 
     downloadBtn.onclick = () => downloadMedia(post);
     // Share functionality can be added here if needed
-    shareBtn.style.display = "none"; // Hide share button for now
+    // shareBtn.style.display = "none"; // Hide share button for now
 
     const bsModal = new bootstrap.Modal(modal);
     bsModal.show();
