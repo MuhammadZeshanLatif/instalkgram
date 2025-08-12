@@ -5,7 +5,6 @@ Disallow: /about.html
 Disallow: /contact.html
 Disallow: /privacy.html
 Disallow: /terms.html
-Disallow: influencers.html
 
 
 
@@ -20,6 +19,7 @@ Allow: /blog.html
 Allow: /blog/
 Allow: /blog/instagram-privacy-protection-guide.html
 Allow: /stemap.xml
+Allow: /influencers.html
 
 # ✅ Attach Sitemap for full structure
 Sitemap: https://instalkgram.com/sitemap.xml
