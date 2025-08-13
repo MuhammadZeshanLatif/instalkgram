@@ -1,0 +1,42 @@
+# ====================================
+# LLMs.TXT for AI crawlers
+# ====================================
+
+# ❌ Block specific AI bots from training on site data
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: OAI-SearchBot
+Disallow: /
+
+# 📌 Allow AI bots you trust (example: Perplexity)
+User-agent: PerplexityBot
+Allow: /
+
+# 📚 Default rules for all other AI crawlers
+User-agent: *
+# ❌ Block non-SEO or low-value pages
+Disallow: /about.html
+Disallow: /contact.html
+Disallow: /privacy.html
+Disallow: /terms.html
+
+# ❌ Block utility folders
+Disallow: /assets/
+Disallow: /ads/
+
+# ✅ Allow high-value content
+Allow: /index.html
+Allow: /blog.html
+Allow: /blog/
+Allow: /blog/instagram-privacy-protection-guide.html
+Allow: /sitemap.xml
+Allow: /influencers.html
+
+# ✅ Sitemap for AI bots
+Sitemap: https://instalkgram.com/sitemap.xml

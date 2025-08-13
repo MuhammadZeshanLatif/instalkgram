@@ -1,28 +1,51 @@
-User-agent: *
+# ====================================
+# ROBOTS.TXT for https://instalkgram.com
+# ====================================
 
-# ❌ Block non-SEO or utility pages
+# 📌 Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+
+# 📸 Allow image indexing for Google Images
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# 🛡 Block spam/low-value crawlers
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+
+# 📚 Global default rules for all other bots
+User-agent: *
+# ❌ Block non-SEO or low-value pages
 Disallow: /about.html
 Disallow: /contact.html
 Disallow: /privacy.html
 Disallow: /terms.html
 
-
-
-
 # ❌ Block non-content folders
 Disallow: /assets/
 Disallow: /ads/
 
-# ✅ Allow SEO-relevant pages & all blog posts inside /blog/
+# ✅ Allow SEO-relevant pages & blog
 Allow: /index.html
 Allow: /blog.html
 Allow: /blog/
 Allow: /blog/instagram-privacy-protection-guide.html
-Allow: /stemap.xml
+Allow: /sitemap.xml
 Allow: /influencers.html
 
-# ✅ Attach Sitemap for full structure
+# ✅ Sitemap
 Sitemap: https://instalkgram.com/sitemap.xml
 
-# 📉 Optional delay (helps on shared hosting)
+# 📉 Crawl delay for shared hosting protection
 Crawl-delay: 1
