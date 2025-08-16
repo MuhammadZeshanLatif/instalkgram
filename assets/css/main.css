@@ -1041,6 +1041,7 @@ section.how-to-section.view-intagram-story-section {
         font-size: 1.5rem;
     }
 }
+
 .conclusion-section {
     padding: 80px 0;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -1057,7 +1058,7 @@ section.how-to-section.view-intagram-story-section {
     right: 0;
     bottom: 0;
     background: radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -1184,15 +1185,19 @@ section.how-to-section.view-intagram-story-section {
     0% {
         transform: rotate(0deg);
     }
+
     25% {
         transform: rotate(5deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
+
     75% {
         transform: rotate(-5deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
@@ -1203,39 +1208,39 @@ section.how-to-section.view-intagram-story-section {
     .conclusion-section {
         padding: 60px 0;
     }
-    
+
     .conclusion-container {
         padding: 0 15px;
     }
-    
+
     .conclusion-title {
         font-size: 2.4rem;
         margin-bottom: 15px;
     }
-    
+
     .conclusion-main-text {
         font-size: 1.1rem;
         margin-bottom: 25px;
         text-align: center;
     }
-    
+
     .conclusion-highlight-text {
         font-size: 1.15rem;
         margin-bottom: 35px;
         text-align: center;
         padding: 20px;
     }
-    
+
     .conclusion-cta-button {
         padding: 18px 35px;
         font-size: 1.1rem;
     }
-    
+
     .conclusion-cta-icon {
         font-size: 1.3rem;
         margin-right: 12px;
     }
-    
+
     .conclusion-cta-text {
         font-size: 1.1rem;
     }
@@ -1245,23 +1250,23 @@ section.how-to-section.view-intagram-story-section {
     .conclusion-section {
         padding: 50px 0;
     }
-    
+
     .conclusion-title {
         font-size: 2rem;
         margin-bottom: 15px;
     }
-    
+
     .conclusion-main-text {
         font-size: 1.05rem;
         margin-bottom: 20px;
     }
-    
+
     .conclusion-highlight-text {
         font-size: 1.1rem;
         margin-bottom: 30px;
         padding: 18px;
     }
-    
+
     .conclusion-cta-button {
         padding: 15px 30px;
         font-size: 1rem;
@@ -1269,20 +1274,36 @@ section.how-to-section.view-intagram-story-section {
         text-align: center;
         gap: 8px;
     }
-    
+
     .conclusion-cta-icon {
         font-size: 1.2rem;
         margin-right: 0;
     }
-    
+
     .conclusion-cta-text {
         font-size: 1rem;
         line-height: 1.3;
     }
 }
-.nav-item.dropdown .active{
+
+.nav-item.dropdown .active {
     background: #e1306c;
 }
 
+.input-group.input-group-lg.arabicss {
+    flex-direction: row-reverse;
+
+    span.input-group-text {
+        border-radius: 0px !important;
+        border-top-right-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+
+    button#searchBtn {
+        border-radius: 0px !important;
+        border-top-left-radius: 8px !important;
+        border-bottom-left-radius: 8px !important;
+    }
+}
 
 /*new sections*/
