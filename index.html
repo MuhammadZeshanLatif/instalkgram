@@ -125,6 +125,27 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-globe me-1"></i>
+                                <span id="currentLanguageName">English</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item active" href="#" data-lang="en">English</a></li>
+                                <li><a class="dropdown-item " href="./es/index.html" data-lang="es">Español</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="fr">Français</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="de">Deutsch</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="pt">Português</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="it">Italiano</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="nl">Nederlands</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="ja">日本語</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="ar">العربية</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="ru">Русский</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="tr">Türkçe</a></li>
+                                <li><a class="dropdown-item " href="#" data-lang="id">Bahasa Indonesia</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item">
                             <button class="btn btn-link nav-link theme-toggle" id="themeToggle">
                                 <i class="fas fa-moon"></i>
@@ -152,25 +173,25 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="hero-title" data-i18n="hero_title"></h1>
+                    <h1 class="hero-title">Instagram Story Viewer -<span class="text-primary"> Watch & Download
+                            Anonymously</span></h1>
                     <!-- Instagram Username Input -->
                     <div class="search-container mt-4">
                         <div class="input-group input-group-lg">
                             <span class="input-group-text"><i class="fab fa-instagram"></i></span>
                             <input type="text" class="form-control" id="usernameInput"
-                                placeholder="Enter Instagram username..." data-i18n="search_placeholder">
+                                placeholder="Enter Instagram username...">
                             <button class="btn btn-primary" type="button" id="searchBtn">
                                 <i class="fas fa-search me-2"></i><span data-i18n="search_button">View Stories</span>
                             </button>
                         </div>
                         <small class="form-text text-muted mt-2">
                             <i class="fas fa-shield-alt me-1"></i>
-                            <span data-i18n="search_disclaimer">100% Anonymous • No Login Required • Completely
-                                Free</span>
+                            <span>100% Anonymous • No Login Required • Completely Free</span>
                         </small>
                     </div>
                     <br>
-                    <p class="hero-subtitle" data-i18n="hero_description">Have you ever wished you could view Instagram
+                    <p class="hero-subtitle">Have you ever wished you could view Instagram
                         stories anonymously? InStalkgram is the ultimate Instagram Story Viewer that lets you browse
                         Insta stories, reels, and highlights without logging in on any device and without using your own
                         account. Simply enter the username to watch and download stories in HD without leaving a digital
@@ -972,7 +993,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/hero-mockup.js"></script>
     <script src="assets/js/hero-influencer-carousel.js"></script>
-    <script src="assets/js/language-switcher.js"></script>
+    <!-- <script src="assets/js/language-switcher.js"></script> -->
 </body>
 
 </html>

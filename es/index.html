@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="ancho = ancho del dispositivo, escala inicial = 1.0" name="visión" />
+    <meta content="en" http-equiv="Content-Language" />
+    <meta content="#000000" name="color temático" />
+    <meta
+        content="Vea las historias de Instagram de forma anónima sin iniciar sesión. Descargue las historias de Instagram, los carretes y las imágenes de perfil de forma gratuita. 100% anónimo y seguro."
+        name="descripción" />
+    <meta
+        content="Visor de historias de Instagram, visor anónimo de Instagram, descargador de historias de Instagram, ver historias de IG, descarga de carretes de Instagram"
+        name="Palabras clave" />
+    <meta content="Instalkgram" name="autor" />
+    <!-- Open Graph Meta Tags -->
+    <meta content="Visor de historias de Instagram: vea historias de forma anónima | Instalkgram" property="og:title" />
+    <meta
+        content="Mire las historias de Instagram de forma anónima sin iniciar sesión. Descargue las historias de Instagram, los carretes y las imágenes de perfil de forma gratuita. 100% anónimo y seguro."
+        property="og:description" />
+    <meta content="sitio web" property="og:type" />
+    <meta content="https://instalkgram.com" property="og:url" />
+    <meta content="../assets/images/og-image.webp" property="og:image" />
+    <meta content="Instalkgram" property="og:site_name" />
+    <!-- Twitter Card Meta Tags -->
+    <meta content="resumen_large_image" name="Twitter: tarjeta" />
+    <meta content="Visor de historias de Instagram: vea historias de forma anónima" name="Twitter: título" />
+    <meta
+        content="Vea las historias de Instagram de forma anónima sin iniciar sesión. Descargue las historias de Instagram, los carretes y las imágenes de perfil de forma gratuita."
+        name="Twitter: Descripción" />
+    <meta content="https://instalkgram.com/assets/images/og-image.webp" property="og:image" />
+    <meta content="https://instalkgram.com/assets/images/og-image.webp" name="Twitter: imagen" />
+    <title>Visor de Historias de Instagram - Descargar Anónimamente | InStalkgram</title>
+    <link href="https://instalkgram.com/" rel="canonical" />
+    <!-- Favicon -->
+    <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="../assets/images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link href="../assets/fonts/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="../assets/css/main.css" rel="stylesheet" />
+    <link href="../assets/css/components.css" rel="stylesheet" />
+    <link href="../assets/css/responsive.css" rel="stylesheet" />
+    <link href="../assets/css/results.css" rel="stylesheet" />
+    <link href="../assets/css/dark-theme.css" rel="stylesheet" />
+    <link href="../assets/css/hero-mockup.css" rel="stylesheet" />
+    <link href="../assets/css/hero-influencer-carousel.css" rel="stylesheet" />
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "InStalkgram",
+        "url": "https://instalkgram.com/es/",
+        "logo": "https://instalkgram.com/assets/images/instalkgram-logo.webp",
+        "description": "Visor y descargador de historias de Instagram anónimo",
+        "sameAs": [],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "atención al cliente",
+            "email": "support@instalkgram.com"
+        },
+        "service": {
+            "@type": "Service",
+            "name": "Visor de Historias de Instagram",
+            "description": "Ver historias de Instagram de forma anónima sin iniciar sesión",
+            "provider": {
+            "@type": "Organization",
+            "name": "InStalkgram"
+            },
+            "serviceType": "Herramienta de redes sociales"
+        }
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Logotipo de Instalkgram" class="d-inline-block align-text-top" height="40"
+                        src="../assets/images/logo.webp" />
+                    <span class="brand-text">Instalkgram</span>
+                </a>
+                <button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../influencers.html">Influenciadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                                id="languageDropdown" role="button">
+                                <i class="fas fa-globe me-1"></i>
+                                <span id="currentLanguageName">Inglés</span>
+                            </a>
+                            <ul aria-labelledby="languageDropdown" class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" data-lang="en" href="../index.html">Inglés</a></li>
+                                <li><a class="dropdown-item active" data-lang="es" href="./index.html">Español</a></li>
+                                <li><a class="dropdown-item" data-lang="fr" href="#">Francés</a></li>
+                                <li><a class="dropdown-item" data-lang="de" href="#">Deutsch</a></li>
+                                <li><a class="dropdown-item" data-lang="pt" href="#">portugués</a></li>
+                                <li><a class="dropdown-item" data-lang="it" href="#">italiano</a></li>
+                                <li><a class="dropdown-item" data-lang="nl" href="#">Holandés</a></li>
+                                <li><a class="dropdown-item" data-lang="ja" href="#">japonés</a></li>
+                                <li><a class="dropdown-item" data-lang="ar" href="#">árabe</a></li>
+                                <li><a class="dropdown-item" data-lang="ru" href="#">apresurado</a></li>
+                                <li><a class="dropdown-item" data-lang="tr" href="#">turco</a></li>
+                                <li><a class="dropdown-item" data-lang="id" href="#">indonesio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-link nav-link theme-toggle" id="themeToggle">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Ad Banner -->
+    <!-- Ad Slot: Header Banner -->
+    <div class="ad-banner">
+        <div class="container">
+            <div class="ad-placeholder"
+                style="height: 90px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                <span>Anuncio - 728x90</span>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Ver Historias de Instagram Anónimo -<span class="text-primary">Mira y
+                            Descarga Historias en Modo Incógnito</span></h1>
+                    <!-- Instagram Username Input -->
+                    <div class="search-container mt-4">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text"><i class="fab fa-instagram"></i></span>
+                            <input class="form-control" id="usernameInput"
+                                placeholder="Ingrese el nombre de usuario de Instagram ..." type="text" />
+                            <button class="btn btn-primary" id="searchBtn" type="button">
+                                <i class="fas fa-search me-2"></i><span data-i18n="search_button">Ver historias</span>
+                            </button>
+                        </div>
+                        <small class="form-text text-muted mt-2">
+                            <i class="fas fa-shield-alt me-1"></i>
+                            <span>100% anónimo • No se requiere inicio de sesión • Completamente gratis</span>
+                        </small>
+                    </div>
+                    <br />
+                    <p class="hero-subtitle">¿Alguna vez has deseado poder ver Instagram?
+                        historias de forma anónima? Instalkgram es el mejor espectador de historias de Instagram que te
+                        permite navegar
+                        Insta Stories, carretes y destacados sin iniciar sesión en ningún dispositivo y sin usar el suyo
+                        cuenta. Simplemente ingrese el nombre de usuario para ver y descargar historias en HD sin dejar
+                        una digital
+                        huella. Ya sea que lo llame espectador de IG Story, Visor de Insta, espectador de historias
+                        Instagram o Anon
+                        IG Viewer, nuestra plataforma mantiene su identidad oculta en todo momento.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <!-- Instagram-style mockup will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ad Slot: Hero Section -->
+    <div class="ad-banner my-3">
+        <div class="container">
+            <div class="ad-placeholder"
+                style="height: 90px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                <span>Anuncio - 728x90</span>
+            </div>
+        </div>
+    </div>
+    <!-- Features Section -->
+    <section class="features-section py-5 bg-light">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">🕵️‍♀️See Everything You Want. Be Seen by No One.</h2>
+                    <p class="section-subtitle">This is your perfect IG stories stalker — totally undercover, no strings
+                        attached, no login required. Just enter the username and go.
+                    </p>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">¿Por qué elegir nuestro espectador de historias de Instagram?</h2>
+                    <p class="section-subtitle">Seamos realistas: hoy en día las redes sociales están inundadas de
+                        innumerables historias
+                        ! Pero ver la historia de otra persona y eso también mientras mantiene un perfil bajo. Aquí es
+                        donde
+                        Las cosas se ponen intrigantes. Pero, ¿qué pasaría si pudieras hacer eso sin ser atrapado?
+                        Sonidos
+                        familiar. ¡Te tenemos cubierto! Has aterrizado en el lugar correcto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <h3>Navegación 100% anónima</h3>
+                        <p>La privacidad lo es todo. Una de las características más notables de nuestra historia anónima
+                            de Instagram
+                            El espectador es el modo de incógnito. Nuestro discreto espectador de Instagram asegura que
+                            su escondido
+                            La identidad permanece intacta, y puede navegar libremente, reflejos y publicaciones sin
+                            Dejando cualquier rastro</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-times"></i>
+                        </div>
+                        <h3>No se requiere cuenta de Instagram</h3>
+                        <p>No necesita tener una cuenta de Instagram para ver historias. Todo lo que necesitas hacer es
+                            visitar
+                            nuestro sitio, escriba el nombre de usuario y simplemente comience a navegar: salta
+                            directamente a los perfiles públicos
+                            ¡Sin la molestia de inicio de sesión!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Compatibilidad de los dispositivos cruzados</h3>
+                        <p>Ya sea que se esté relajando en casa o en la marcha, nuestro espectador de Insta Story
+                            garantiza una perfección
+                            Experiencia de navegación en todos los dispositivos. Ya sea que esté utilizando un móvil,
+                            escritorio o tableta,
+                            Nuestra plataforma funciona perfectamente en iOS, Android y Windows. No se requiere
+                            instalación de aplicaciones -
+                            Simplemente lance y explore de forma anónima.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Mira la historia de IG en medios de alta calidad</h3>
+                        <p>¿Quieres guardar la historia de Instagram, los aspectos más destacados o los carretes en HD?
+                            Ya sea un video mp4 o un
+                            Imagen de JPG, nuestro espectador le permite descargar historias, destacados o carretes de
+                            Instagram en lo alto
+                            resolución. El factor decisivo? ¡No hay marca de agua para matar el ambiente! Aproveche al
+                            máximo los descargables
+                            Recursos, como estaba destinado a ser: limpio y nítido.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Interfaz fácil de usar</h3>
+                        <p>Para una experiencia perfecta, hemos diseñado una interfaz fácil de usar. Tampoco tendrás
+                            esperar tiempos más largos mientras ofrecemos tiempos de carga rápidos. También nos hemos
+                            asegurado de que haya
+                            Anuncios mínimos para evitar interrupciones, lo que le permite disfrutar de la información
+                            que está consumiendo.
+                            Es tan fácil.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-unlock"></i>
+                        </div>
+                        <h3>Disfruta de los activos públicos libremente</h3>
+                        <p>No más molestias al navegar por los perfiles públicos, historias o carretes de Instagram,
+                            como todo es
+                            justo a la mano. Nuestro espectador le permite ver los datos sin esfuerzo sin ningún
+                            restricciones.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cifrado de extremo a extremo</h3>
+                        <p>La tranquilidad está garantizada con nuestro sistema de navegación seguro: no más seguimiento
+                            de su
+                            información personal. Nuestra plataforma segura de SSL garantiza un cifrado de extremo a
+                            extremo para proteger
+                            la confidencialidad de uno.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Results Section -->
+    <section class="results-section py-5" id="resultsSection" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <!-- Profile Info -->
+                    <div class="profile-info mb-4" id="profileInfo">
+                        <!-- Profile data will be loaded here -->
+                    </div>
+                    <!-- Stories Grid -->
+                    <div class="stories-section mb-4">
+                        <h3><i class="fas fa-circle-play me-2"></i>Stories</h3>
+                        <div class="stories-grid" id="storiesGrid">
+                            <!-- Stories will be loaded here -->
+                        </div>
+                    </div>
+                    <!-- Reels Grid -->
+                    <div class="reels-section mb-4">
+                        <h3><i class="fas fa-video me-2"></i>Reels</h3>
+                        <div class="reels-grid" id="reelsGrid">
+                            <!-- Reels will be loaded here -->
+                        </div>
+                    </div>
+                    <!-- Native Ad -->
+                    <!-- Ad Slot: Between Content -->
+                    <div class="native-ad my-4">
+                        <div class="ad-placeholder native"
+                            style="height: 90px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                            <span>Contenido patrocinado - 728x90</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <!-- Sidebar Ad -->
+                        <!-- Ad Slot: Sidebar -->
+                        <div class="sidebar-ad mb-4">
+                            <div class="ad-placeholder vertical"
+                                style="height: 250px; width: 300px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d; text-align: center;">
+                                <span>Advertisement<br />300x250</span>
+                            </div>
+                        </div>
+                        <!-- Recent Searches -->
+                        <div class="recent-searches">
+                            <h5>Búsquedas recientes</h5>
+                            <div class="recent-list" id="recentSearches">
+                                <!-- Recent searches will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- View Instagram Stories Anonymously Section -->
+    <!-- <section class="how-to-section view-intagram-story-section pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">View Instagram Stories Anonymously with InStalkgram</h2>
+                    <p class="section-subtitle">The clock is ticking — stories vanish after just 24 hours. But what if
+                        you want to revisit one? Or say you viewed a story and instantly regretted it because now they
+                        know you were there. Our tool bridges that gap between fleeting content and lasting, real-time
+                        access. On Instalkgram, you're not just viewing content — you're collecting meaningful insights,
+                        catching up on the latest trends, or checking in on an old friend's chaotic life — all while
+                        staying completely invisible. No evidence, just quiet scrolling. <br>
+                        On InStalkgram, we make sure you get all the content — stories, highlights, reels — and even
+                        download it with full control and privacy.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section> -->
+    <!-- How to Use Section -->
+    <section class="how-to-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Cómo usar el espectador de la historia de Instagram</h2>
+                    <p class="section-subtitle">Aquí hay una guía simple sobre cómo usar el espectador de la historia de
+                        Instagram y mantener
+                        Tu secreto, un secreto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h4>Copiar el nombre de usuario de Instagram</h4>
+                        <p>Para empezar, debe conocer el nombre de usuario de la persona en la que está espiando.
+                            Simplemente
+                            Pase a su perfil de Instagram y copie el mango (por ejemplo, Cristiano). Entrarás
+                            Este nombre en la herramienta Visor de Instagram.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h4>Pegar el nombre de usuario en la barra de búsqueda</h4>
+                        <p>Vaya a nuestro espectador de historias de Instagram en la parte superior de la página. Pegar
+                            el nombre de usuario en el que copió
+                            la barra de búsqueda y golpear Enter.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h4>Seleccione la historia o resalte para ver de forma anónima</h4>
+                        <p>Aquí está la parte emocionante. Una vez que presione Enter, la herramienta obtendrá todas las
+                            historias y
+                            Lo más destacado de esa cuenta al instante. Desde aquí, puedes ver las últimas historias de
+                            Insta
+                            y mucho más.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h4>Ver historias de Instagram discretamente</h4>
+                        <p>El verdadero negocio? Puedes ver y disfrutar de todo este contenido sin que nadie se dé
+                            cuenta. Su
+                            La presencia en los perfiles públicos no se detectará. Nuestro espectador de historias de
+                            Instagram te da
+                            acceso ilimitado sin ser rastreado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <!-- <section class="cta-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="cta-card">
+                        <h2 class="cta-title">Who Should Use InStalkgram?</h2>
+                        <p class="cta-subtitle"><ul>
+                            <li>
+                            👩‍💼 Marketers & Content Creators – Delve deeper and find inspiration without revealing identity
+                            </li>
+                        </ul></p>
+                        <a href="contact.html" class="cta-btn">Join Our Network</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Ad Slot: Before How to Use Section -->
+    <div class="ad-banner my-3">
+        <div class="container">
+            <div class="ad-placeholder"
+                style="height: 90px; background: #f8f9fa; border: 2px dashed   #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                <span>Anuncio - 728x90</span>
+            </div>
+        </div>
+    </div>
+    <section class="target-audience-section">
+        <div class="content-container">
+            <div class="section-header">
+                <h2 class="section-title">¿Quién debería usar Intilkgram?</h2>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <div class="audience-icon">👩‍💼</div>
+                    <h3 class="audience-title">Vendedores y creadores de contenido</h3>
+                    <p class="audience-description">Profundizar y encontrar inspiración sin revelar identidad</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">🤝</div>
+                    <h3 class="audience-title">Amigos y fanáticos</h3>
+                    <p class="audience-description">Mira las historias públicas sin ser rastreado</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">👩‍🎓</div>
+                    <h3 class="audience-title">Investigadores y estudiantes</h3>
+                    <p class="audience-description">Analizar y rastrear las tendencias para fines académicos</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">🏆</div>
+                    <h3 class="audience-title">Agencias influyentes</h3>
+                    <p class="audience-description">Espiar a los competidores discretamente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- The InStalkgram Edge Section -->
+    <section class="edge-section">
+        <div class="content-container">
+            <div class="edge-header">
+                <h2 class="edge-title">🏆 El borde de Instalkgram</h2>
+                <p class="edge-subtitle">¿Obtiene el mejor espectador anónimo de Instagram de 2025?</p>
+                <p class="edge-intro">Conoce a Instalkgram: esta no es solo otra herramienta para el espectador, es la
+                    más completa,
+                    Visor de Instagram seguro y sin costuras.</p>
+            </div>
+            <div class="comparison-content">
+                <p class="comparison-text">Somos todo lo que ofrecen Mollygram, Anonyig, Storiesig e Instagram Anonimo -
+                    Pero mejor:</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span class="feature-text">Carga más rápida</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span class="feature-text">Interfaz simple</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span class="feature-text">Más seguro</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-check">✓</span>
+                        <span class="feature-text">Gramo de tallo en modo sigiloso</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Digital Invisibility Section -->
+    <section class="invisibility-section">
+        <div class="content-container">
+            <div class="invisibility-header">
+                <h2 class="invisibility-title">Dominar el arte de la invisibilidad digital con Intilkgram</h2>
+            </div>
+            <div class="invisibility-content">
+                <p class="invisibility-text">Mientras se desplaza por Instagram, probablemente haya habido innumerables
+                    veces cuando le deseó
+                    Podría ver historias de Instagram de forma anónima o ver historias de Instagram sin que ellos lo
+                    supieran. Tal vez
+                    Te sorprendió lo creativo que era un carrete. Como gerente de marca o creador de contenido, necesita
+                    Inspiración, pero guardarlo para más tarde no siempre es una opción. Ahí es donde nuestro poderoso
+                    anónimo
+                    Instagram Viewer entra. Le permite acceder discretamente a cualquier contenido público de visor de
+                    Insta Stories.
+                    Puede llevar su navegación anónima de Instagram al siguiente nivel, rompiendo a todos los públicos
+                    Perfil sin dejar rastro.</p>
+                <div class="why-use-section">
+                    <h3 class="why-use-title">¿Por qué utilizar el visor de Instagram anónimo de Instalkgram?</h3>
+                    <p class="why-use-text">Desde mantener un seguimiento de sus marcas favoritas, TrendSetter Friends e
+                        Infliferers hasta descubrir
+                        Lo que están haciendo sus celebridades favoritas, sus historias de Insta están a solo un clic de
+                        distancia en nuestro
+                        Visor de historias de Instagram anónimo, todo mientras mantiene intacta su identidad de Insta
+                        Stalker.</p>
+                    <p class="why-use-text">Sabes que la tentación es real cuando ves un carrete que hace que tu
+                        mandíbula o una publicación que deseas
+                        para ahorrar para más tarde. Con nuestro espectador de historias de Instagram sin herramienta de
+                        inicio de sesión, es todo suyo al instante. No
+                        REGRESCIÓN REQUERIDA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trending Content Carousel -->
+    <section class="trending-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title">Contenido de tendencia</h2>
+                    <p class="section-subtitle">Descubre lo que es popular en Instagram ahora mismo</p>
+                </div>
+            </div>
+            <div class="swiper trending-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <img alt="Collage de fotos de viajes con puntos de referencia y paisajes urbanos"
+                                class="trending-image"
+                                src="../assets/images/travel-blogs/travel-blogs-thumbnail.webp" />
+                            <div class="trending-overlay">
+                                <h5>Tendencias de la moda</h5>
+                                <p>Últimas historias de moda</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <img alt="Ilustraciones de moda de atuendos elegantes" class="trending-image"
+                                src="../assets/images/fasion-blogs/fashion-blogs-thumbnail.webp" />
+                            <div class="trending-overlay">
+                                <h5>Vlogs de viaje</h5>
+                                <p>Increíble contenido de viaje</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <img alt="Persona fotografiando hamburguesas y papas fritas con un teléfono"
+                                class="trending-image"
+                                src="../assets/images/Food-and-Recipes-blogs/food-and-recipes-blogs-thumbnail.webp" />
+                            <div class="trending-overlay">
+                                <h5>Comida y recetas</h5>
+                                <p>Deliciosas historias de comida</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trending-card">
+                            <img alt="Entrenador discutiendo el plan de acondicionamiento físico con el cliente en un gimnasio moderno"
+                                class="trending-image"
+                                src="../assets/images/fitness-tips-blogs/fitness-tips-blogs-thumbnail.webp" />
+                            <div class="trending-overlay">
+                                <h5>Consejos físicos</h5>
+                                <p>Salud y bienestar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Preguntas frecuentes</h2>
+                    <p class="section-subtitle">Todo lo que necesitas saber sobre nuestro espectador de historias de
+                        Instagram</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" data-bs-target="#faq1" data-bs-toggle="collapse"
+                                    type="button">¿Necesito tener una cuenta de Instagram?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse show" data-bs-parent="#faqAccordion" id="faq1">
+                                <div class="accordion-body">No, no necesitas iniciar sesión. Simplemente ponte el nombre
+                                    de usuario y estás bien para
+                                    ir. Eso es todo lo que se necesita.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#faq2"
+                                    data-bs-toggle="collapse" type="button">¿Qué dispositivos son compatibles con esta
+                                    herramienta?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq2">
+                                <div class="accordion-body">Todos los dispositivos: iOS, Android y PC son compatibles
+                                    con nuestra herramienta.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#faq3"
+                                    data-bs-toggle="collapse" type="button">¿Puedo recuperar historias, fotos, carretes,
+                                    etc. sin ser atrapado?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq3">
+                                <div class="accordion-body">Sí. Solo necesita asegurarse de que la cuenta sea pública.
+                                    Nuestra herramienta no funciona
+                                    en cuentas privadas. Y luego puedes obtener fotos, videos y todo.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#faq4"
+                                    data-bs-toggle="collapse" type="button">¿Tengo que pagar por usar esta
+                                    herramienta?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq4">
+                                <div class="accordion-body">¡No! Todo lo que estamos ofreciendo es completamente
+                                    gratuito. Sin problemas. Sin cuerdas
+                                    adjunto.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#faq5"
+                                    data-bs-toggle="collapse" type="button">¿En qué formatos puedo guardar el
+                                    archivo?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq5">
+                                <div class="accordion-body">Estamos ofreciendo videos de calidad de primer nivel que
+                                    están disponibles en formato MP4 y fotos
+                                    se puede descargar en formato JPEG o JPG.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#faq6"
+                                    data-bs-toggle="collapse" type="button">¿Está protegida mi identidad?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq6">
+                                <div class="accordion-body">Nuestra poderosa herramienta le permite ver discretamente
+                                    cualquier historia pública mientras te mantiene
+                                    completamente invisible desde el ojo público.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conclusion-section">
+        <div class="conclusion-container">
+            <div class="conclusion-wrapper">
+                <div class="conclusion-header">
+                    <h2 class="conclusion-title">Ver historias de Instagram de forma anónima de Intilkgram</h2>
+                </div>
+                <div class="conclusion-content">
+                    <p class="conclusion-main-text">El reloj está marcando. Las historias de IG desaparecen después de
+                        solo 24 horas. Pero, ¿y si quieres volver a visitar?
+                        ¿uno? O digamos que viste una historia y la lamentó al instante porque ahora saben que estabas
+                        allí.
+                        Nuestra herramienta une esa brecha entre el contenido fugaz y el acceso duradero en tiempo real.
+                        En
+                        Intilkgram, no solo estás viendo contenido; Estás recolectando ideas significativas, poniéndote
+                        al día
+                        sobre las últimas tendencias, hacer una investigación discreta o verificar la vida caótica de un
+                        viejo amigo,
+                        Todo mientras se mantiene completamente invisible. Sin evidencia, solo desplazamiento tranquilo.
+                    </p>
+                    <p class="conclusion-highlight-text">En Intilkgram, nos aseguramos de obtener todo el contenido:
+                        historias de Instagram, reflejos y carretes,
+                        E incluso descargarlo con control completo y privacidad.</p>
+                    <div class="conclusion-cta-section">
+                        <a class="conclusion-cta-text" href="#"
+                            onclick="document.getElementById('usernameInput').focus()">
+                            <div class="conclusion-cta-button">
+                                <!-- <span class="conclusion-cta-icon">🔍</span> -->
+                                <i class="fas fa-rocket me-2"></i>Try InStalkgram now — free, fast &amp; 100%
+                                anonymous.
+
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <!-- <section class="cta-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2>Stalk the Gram in Stealth Mode — Only on InStalkgram</h2>
+                    <p class="lead">Master the art of Digital Invisibility with InStalkgram. View Instagram stories
+                        anonymously and download content without leaving a trace.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-light btn-lg" onclick="document.getElementById('usernameInput').focus()">
+                        <i class="fas fa-rocket me-2"></i>Start Viewing Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Footer Ad -->
+    <!-- Ad Slot: Footer -->
+    <div class="footer-ad py-3 bg-light">
+        <div class="container text-center">
+            <div class="ad-placeholder"
+                style="height: 90px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                <span>Anuncio - 728x90</span>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>Instalkgram</h5>
+                    <p>Su herramienta final para ver las historias de Instagram de forma anónima. Seguro, seguro y
+                        completamente gratis
+                        para usar.</p>
+                    <div class="social-links">
+                        <a class="text-white me-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="text-white me-3" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="text-white me-3" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Enlaces rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white-50" href="index.html">Hogar</a></li>
+                        <li><a class="text-white-50" href="blog.html">Blog</a></li>
+                        <li><a class="text-white-50" href="about.html">Acerca de</a></li>
+                        <li><a class="text-white-50" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white-50" href="privacy.html">política de privacidad</a></li>
+                        <li><a class="text-white-50" href="terms.html">Términos de servicio</a></li>
+                        <li><a class="text-white-50" href="#">Política de cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6>Hoja informativa</h6>
+                    <p>Manténgase actualizado con las últimas funciones y consejos.</p>
+                    <div class="input-group">
+                        <input class="form-control" placeholder="Tu correo electrónico" type="email" />
+                        <button class="btn btn-primary" type="button">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" />
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2025 Instalkgram. Reservados todos los derechos.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Made with <i class="fas fa-heart text-danger"></i> for Instagram lovers</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Media Viewer Modal -->
+    <div class="modal fade" id="mediaModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Espectador de medios</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" onclick="stopVideo()" type="button"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div id="mediaContainer">
+                        <!-- Media content will be loaded here -->
+                    </div>
+                    <!-- Modal Ad -->
+                    <!-- Ad Slot: Modal -->
+                    <div class="modal-ad mt-3">
+                        <div class="ad-placeholder small"
+                            style="height: 60px; background: #f8f9fa; border: 2px dashed #dee2e6; display: flex; align-items: center; justify-content: center; color: #6c757d;">
+                            <span>Anuncio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="downloadBtn" type="button">
+                        <i class="fas fa-download me-2"></i>Download
+                    </button>
+                    <button class="btn btn-primary" id="shareBtn" type="button">
+                        <i class="fas fa-share me-2"></i>Share
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+            <p class="mt-3">Obtener datos de Instagram ...</p>
+        </div>
+    </div>
+    <!-- Floating Download Button (Mobile) -->
+    <div class="floating-download-btn d-lg-none" id="floatingDownloadBtn" style="display: none !important;">
+        <button class="btn btn-primary rounded-circle">
+            <i class="fas fa-download"></i>
+        </button>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/hero-mockup.js"></script>
+    <script src="../assets/js/hero-influencer-carousel.js"></script>
+    <!-- <script src="../assets/js/language-switcher.js"></script> -->
+</body>
+
+</html>
