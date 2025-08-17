@@ -16,6 +16,8 @@ Allow: /blog/
 Allow: /blog/instagram-privacy-protection-guide.html
 Allow: /sitemap.xml
 Allow: /influencers.html
+Allow: /en/index.xml
+Allow: /ar/index.xml
 
 # ✅ Attach Sitemap to guide AI crawlers
 Sitemap: https://instalkgram.com/sitemap.xml 
