@@ -196,7 +196,7 @@ a:hover {
 
 .hero-subtitle {
     font-size: 1.25rem;
-    color: var(--text-secondary);
+    color: var(--bs-emphasis-color);
     margin-bottom: 2rem;
 }
 
@@ -1316,4 +1316,10 @@ section.how-to-section.view-intagram-story-section {
     }
 }
 
+section.hero-section.py-5 {
+    .text-muted{
+        color:#56009f !important;
+        font-weight:700;
+    }
+}
 /*new sections*/
