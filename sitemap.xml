@@ -86,6 +86,11 @@
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
+ <url>
+    <loc>https://instalkgram.com/antoralgram/index.html</loc>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 
 
 </urlset>

@@ -1306,4 +1306,14 @@ section.how-to-section.view-intagram-story-section {
     }
 }
 
+.instalkgram-main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height:100vh;
+        width:fit-content;
+    }
+}
+
 /*new sections*/
