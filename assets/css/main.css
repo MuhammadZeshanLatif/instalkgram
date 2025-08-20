@@ -1310,9 +1310,22 @@ section.how-to-section.view-intagram-story-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-        height:100vh;
-        width:fit-content;
+
+    img {
+        height: 100vh;
+        width: fit-content;
+    }
+}
+
+.search-container.srch-bar-cont {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .input-group.input-group-lg {
+        max-width: 65%;
     }
 }
 
