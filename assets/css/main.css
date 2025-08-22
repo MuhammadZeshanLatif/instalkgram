@@ -1310,16 +1310,79 @@ section.how-to-section.view-intagram-story-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-        height:100vh;
-        width:fit-content;
+
+    img {
+        height: 100vh;
+        width: fit-content;
     }
 }
 
 section.hero-section.py-5 {
-    .text-muted{
-        color:#56009f !important;
-        font-weight:700;
+    .text-muted {
+        color: #56009f !important;
+        font-weight: 700;
     }
 }
+
+.use-intagram-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+        color: #6e66c6;
+        font-size: 56px;
+    }
+
+    p {
+        font-size: 32px;
+        color: #0000008c;
+    }
+}
+
+@media (max-width: 1024px) {
+    .use-intagram-content h3 {
+        font-size: 48px;
+    }
+
+    .use-intagram-content p {
+        font-size: 28px;
+    }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    .use-intagram-content h3 {
+        font-size: 36px !important;
+        text-align: center;
+    }
+
+    .use-intagram-content p {
+        font-size: 22px !important;
+        text-align: center;
+    }
+
+    .use-intagram-content {
+         display: flex;
+         justify-content: center;
+        img {
+           
+            height: 350px;
+            width: 350px;
+            
+        }
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .use-intagram-content h3 {
+        font-size: 28px !important;
+    }
+
+    .use-intagram-content p {
+        font-size: 16px !important;
+    }
+}
+
 /*new sections*/
