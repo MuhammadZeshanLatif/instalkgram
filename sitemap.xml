@@ -8,11 +8,6 @@
     <changefreq>daily</changefreq>
   </url>
 
-  <url>
-    <loc>https://instalkgram.com/blog.html</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
 
   <url>
     <loc>https://instalkgram.com/about.html</loc>
@@ -41,7 +36,7 @@
   <!-- Blog Folder Pages -->
   <url>
     <loc>https://instalkgram.com/blog/index.html</loc>
-    <priority>0.9</priority>
+    <priority>1</priority>
     <changefreq>daily</changefreq>
   </url>
 
