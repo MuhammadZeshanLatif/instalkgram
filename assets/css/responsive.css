@@ -613,7 +613,6 @@
 /* ===== FOCUS STYLES FOR ACCESSIBILITY ===== */
 @media (prefers-reduced-motion: no-preference) {
     *:focus {
-        outline: 2px solid var(--primary-color);
         outline-offset: 2px;
     }
     
