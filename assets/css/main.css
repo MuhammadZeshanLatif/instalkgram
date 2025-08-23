@@ -1331,7 +1331,7 @@ section.hero-section.py-5 {
 
     h3 {
         color: #6e66c6;
-        font-size: 56px;
+        font-size: 54px;
     }
 
     p {
@@ -1340,18 +1340,22 @@ section.hero-section.py-5 {
     }
 }
 
+
 @media (max-width: 1024px) {
     .use-intagram-content h3 {
-        font-size: 48px;
+        font-size: 30px;
     }
 
     .use-intagram-content p {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
 
 /* Tablet (768px and below) */
 @media (max-width: 768px) {
+    .row.change-posiion{
+        flex-direction: column-reverse;
+    }
     .use-intagram-content h3 {
         font-size: 36px !important;
         text-align: center;
@@ -1364,6 +1368,7 @@ section.hero-section.py-5 {
 
     .use-intagram-content {
          display: flex;
+          align-items:center;
          justify-content: center;
         img {
            
@@ -1384,5 +1389,9 @@ section.hero-section.py-5 {
         font-size: 16px !important;
     }
 }
-
+[data-theme="dark"] .use-intagram-content{
+p {
+        color: var(--text-secondary);
+    }
+}   
 /*new sections*/
