@@ -223,7 +223,7 @@
     transform: scale(1.1);
 }
 
-.blog-category {
+/* .blog-category {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -234,7 +234,7 @@
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
-}
+} */
 
 .blog-content {
     padding: 1.5rem;
