@@ -1393,5 +1393,16 @@ section.hero-section.py-5 {
 p {
         color: var(--text-secondary);
     }
-}   
+} 
+
+.every-item-center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-link.nav-link.theme-toggle{
+    &:hover,&:active{
+        color: var(--text-primary) !important;
+    }
+}
 /*new sections*/

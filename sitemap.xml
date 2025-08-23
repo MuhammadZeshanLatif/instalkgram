@@ -27,12 +27,6 @@
   </url>
 
   <url>
-    <loc>https://instalkgram.com/influencers.html</loc>
-    <priority>0.5</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <url>
     <loc>https://instalkgram.com/privacy.html</loc>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>

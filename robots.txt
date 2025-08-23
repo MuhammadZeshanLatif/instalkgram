@@ -5,6 +5,7 @@ Disallow: /about.html
 Disallow: /contact.html
 Disallow: /privacy.html
 Disallow: /terms.html
+Disallow: /influencers.html
 
 # ❌ Block utility or asset folders
 Disallow: /assets/
@@ -16,7 +17,7 @@ Allow: /blog.html
 Allow: /blog/
 Allow: /blog/instagram-privacy-protection-guide.html
 Allow: /sitemap.xml
-Allow: /influencers.html
+
 Allow: /en/index.xml
 Allow: /ar/index.xml
 
