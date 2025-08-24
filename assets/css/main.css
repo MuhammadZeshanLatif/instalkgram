@@ -1405,4 +1405,10 @@ p {
         color: var(--text-primary) !important;
     }
 }
+.feature-img{
+    img{
+        width:150px;
+        height:150px;
+    }
+}
 /*new sections*/
