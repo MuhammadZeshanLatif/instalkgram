@@ -69,33 +69,129 @@
     <link rel="stylesheet" href="assets/css/hero-mockup.css">
     <link rel="stylesheet" href="assets/css/hero-influencer-carousel.css">
 
+
+
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "InStalkgram",
-        "url": "https://instalkgram.com",
-        "logo": "https://instalkgram.com/assets/images/instalkgram-logo.webp",
-        "description": "Anonymous Instagram story viewer and downloader",
-        "sameAs": [],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "email": "support@instalkgram.com"
+      "@type": "Organization",
+      "name": "InStalkgram",
+      "url": "https://instalkgram.com",
+      "logo": "https://instalkgram.com/assets/images/instalkgram-logo.webp",
+      "description": "Anonymous Instagram story viewer and downloader",
+      "sameAs": [
+        "https://facebook.com/instalkgram",
+        "https://twitter.com/instalkgram",
+        "https://instagram.com/instalkgram"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "support@instalkgram.com"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://instalkgram.com",
+      "name": "InStalkgram",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://instalkgram.com/?username={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "InStalkgram - Instagram Story Viewer",
+      "description": "Free, anonymous Instagram Story Viewer and Downloader. View stories, reels, and posts without login.",
+      "brand": {
+        "@type": "Brand",
+        "name": "InStalkgram"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Use InStalkgram Instagram Story Viewer",
+      "description": "Step-by-step guide to view Instagram Stories anonymously.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Search for Instagram Public Account",
+          "text": "Go to Instagram and search a public account username."
         },
-        "service": {
-            "@type": "Service",
-            "name": "Instagram Story Viewer",
-            "description": "View Instagram stories anonymously without logging in",
-            "provider": {
-                "@type": "Organization",
-                "name": "InStalkgram"
-            },
-            "serviceType": "Social Media Tool"
+        {
+          "@type": "HowToStep",
+          "name": "Copy the Username",
+          "text": "Copy the Instagram username you want to view."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Paste Username",
+          "text": "Paste the username in the search bar on InStalkgram."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Select Story or Highlight",
+          "text": "Choose the story or highlight to watch anonymously."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Download",
+          "text": "Download stories, reels, or posts instantly."
         }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the privacy concerns with using InStalkgram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can use the content to find inspiration but avoid direct reuse to prevent copyright issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the service keep records of my activity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, we do not track or store any data. Your browsing is fully anonymous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view private Instagram accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, InStalkgram only works with public Instagram profiles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I recover expired Instagram Stories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, once a story expires or is deleted, it cannot be restored."
+          }
+        }
+      ]
     }
-    </script>
+  ]
+}
+</script>
+
+
 </head>
 
 <body>
