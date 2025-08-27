@@ -1455,3 +1455,18 @@ section.hero-section.py-5 {
 }
 
 /*new sections*/
+
+.applications-item{
+    background: rgba(255, 255, 255, 0.1) !important;
+    padding: 15px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: start;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+#safety-tips{
+    margin-top:40px ;
+    margin-bottom:40px ;
+}
