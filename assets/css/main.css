@@ -821,7 +821,13 @@ section.how-to-section.view-intagram-story-section {
 /* Edge Section */
 .edge-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(385deg,
+            #20348d,
+            #2a3996,
+            #3c50bb,
+            #4b42b0,
+            #785ec9,
+            #8364ce);
     color: white;
     position: relative;
     overflow: hidden;
@@ -1456,21 +1462,34 @@ section.hero-section.py-5 {
 
 /*new sections*/
 
-.applications-item{
+.applications-item {
     background: rgba(255, 255, 255, 0.1) !important;
     padding: 15px 20px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     text-align: start;
-    margin-left:8px;
-    margin-right:8px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
-#safety-tips{
-    margin-top:40px ;
-    margin-bottom:40px ;
+#safety-tips {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
 .tip-card.border-start.border-info.border-4.back-board {
     padding: 20px 5px 5px 25px;
-    background:#0dcaf026;
+    background: #0dcaf026;
+}
+
+.use-intagram-content {
+    video {
+        margin-left: 50px;
+
+        border-radius: 20px;
+    }
+
+    source {
+        border-radius: 20px;
+    }
 }
