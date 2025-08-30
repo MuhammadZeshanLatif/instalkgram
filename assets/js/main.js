@@ -671,7 +671,7 @@ function downloadMedia(post) {
         const link = document.createElement("a");
         link.href = mediaUrl;
         link.download = `${post.username}_${post.shortcode || Date.now()}.${isVideo ? "mp4" : "jpg"}`;
-       
+
         link.rel = "noopener noreferrer";
 
         document.body.appendChild(link);
@@ -693,3 +693,28 @@ function stopVideo() {
     }
 }
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const video = document.getElementById("instaVideo");
+    const playBtn = document.querySelector(".use-intagram-content .play-btn");
+    const icon = playBtn.querySelector("i");
+
+    playBtn.addEventListener("click", function () {
+        if (video.paused) {
+            video.play();
+            icon.classList.remove("fa-play");
+            icon.classList.add("fa-pause");
+        } else {
+            video.pause();
+            icon.classList.remove("fa-pause");
+            icon.classList.add("fa-play");
+        }
+    });
+
+    // Jab video khatam ho jaye to dobara play icon dikhao
+    video.addEventListener("ended", function () {
+        icon.classList.remove("fa-pause");
+        icon.classList.add("fa-play");
+    });
+});
