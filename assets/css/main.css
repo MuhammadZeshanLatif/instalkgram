@@ -1530,7 +1530,9 @@ section.hero-section.py-5 {
                 }
             }
         }
-
-
     }
+}
+
+span.bold-set {
+    font-weight: 900;
 }
