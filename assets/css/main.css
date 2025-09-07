@@ -1486,9 +1486,10 @@ section.hero-section.py-5 {
 
 
 .use-intagram-content {
-    #instaVideo{
-        width:530px;
+    #instaVideo {
+        width: 530px;
     }
+
     .video-wrapper {
         height: 283px;
         position: relative;
@@ -1535,4 +1536,13 @@ section.hero-section.py-5 {
 
 span.bold-set {
     font-weight: 900;
+}
+
+[data-theme="dark"] .profile-bio {
+
+    color: white !important;
+}
+
+.profile-bio {
+    color: black !important;
 }
