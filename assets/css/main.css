@@ -1546,3 +1546,15 @@ span.bold-set {
 .profile-bio {
     color: black !important;
 }
+
+ul.custom-list.cstm-list-2 li {
+    padding-left: 0;
+
+    &:before {
+        display: none;
+    }
+
+    strong {
+        display: inline;
+    }
+}
