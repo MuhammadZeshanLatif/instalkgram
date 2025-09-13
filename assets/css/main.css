@@ -1558,3 +1558,12 @@ ul.custom-list.cstm-list-2 li {
         display: inline;
     }
 }
+.images-width {
+    border-radius:8px;
+    height:550px;
+    img{
+        min-width:fit-content;
+        min-height:550px !important;
+    }
+    margin-bottom:20px;
+}
