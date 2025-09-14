@@ -1567,3 +1567,14 @@ ul.custom-list.cstm-list-2 li {
     }
     margin-bottom:20px;
 }
+ /* dark mode */
+[data-theme="dark"] {
+    .table-of-contents.bg-light.p-4.rounded.mb-5 {
+    h4{
+        color:#00000063 !important;
+    }
+    ol li::marker{
+        color:#b3b6be !important;
+    }
+}
+}
