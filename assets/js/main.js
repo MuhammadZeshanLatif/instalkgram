@@ -14,7 +14,7 @@ function initializeApp() {
     initializeTooltips();
     initializeLazyLoading();
 
-    console.log('InStalkgram app initialized successfully');
+    console.log('TheInstaViewer app initialized successfully');
 }
 
 // ===== THEME MANAGEMENT =====
@@ -528,7 +528,7 @@ window.addEventListener('unhandledrejection', function (e) {
 });
 
 // ===== EXPORT FOR OTHER MODULES =====
-window.InStalkgram = {
+window.TheInstaViewer = {
     showNotification,
     showLoadingOverlay,
     hideLoadingOverlay,

@@ -1,6 +1,6 @@
-# InStalkgram Website Enhancement
+# TheInstaViewer Website Enhancement
 
-This document outlines the enhancements made to the InStalkgram website as per the requirements.
+This document outlines the enhancements made to the TheInstaViewer website as per the requirements.
 
 ## Features Implemented
 
@@ -141,7 +141,7 @@ This document outlines the enhancements made to the InStalkgram website as per t
 ## File Structure
 
 ```
-instalkgrams/
+TheInstaViewers/
 ├── assets/
 │   ├── css/
 │   │   └── hero-mockup.css

@@ -1,4 +1,4 @@
-name: 🚀 Auto Deploy to Spaceship Hosting (instalkgram.com)
+name: 🚀 Auto Deploy to Spaceship Hosting (TheInstaViewer.com)
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   ftp-deploy:
-    name: Upload to instalkgram.com folder
+    name: Upload to TheInstaViewer.com folder
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
       - name: 🚀 FTP se deploy karo
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.instalkgram.com
+          server: ftp.TheInstaViewer.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ./

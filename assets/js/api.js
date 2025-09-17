@@ -1,6 +1,6 @@
 // File: scripts/api.js
 
-const API_URL = 'https://instalkgram-backend.vercel.app';
+const API_URL = 'https://TheInstaViewer-backend.vercel.app';
 
 async function fetchProfile(username) {
     try {

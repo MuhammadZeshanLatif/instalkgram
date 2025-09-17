@@ -22,7 +22,7 @@ Allow: /en/index.xml
 Allow: /ar/index.xml
 
 # ✅ Attach Sitemap for better crawling
-Sitemap: https://instalkgram.com/sitemap.xml
+Sitemap: https://theinstaviewer.com/sitemap.xml
 
 # 📉 Optional delay (helps if on shared hosting)
 Crawl-delay: 1
