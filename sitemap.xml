@@ -1,85 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Main Pages -->
-  <url>
-    <loc>https://theinstaviewer.com/index.html</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-  <url>
-    <loc>https://theinstaviewer.com/about.html</loc>
-    <priority>0.5</priority>
+<url>
+  <loc>https://theinstaviewer.com/</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/index.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/about.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
     <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/contact.html</loc>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/privacy.html</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/terms.html</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
-  <!-- Blog Folder Pages -->
-  <url>
-    <loc>https://theinstaviewer.com/blog/index.html</loc>
-    <priority>1</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/blog/best-instagram-story-viewers-2025-comparison.html</loc>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/blog/how-to-watch-instagram-stories-anonymously-in-2025.html</loc>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/blog/instagram-privacy-protection-guide.html</loc>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <url>
-    <loc>https://theinstaviewer.com/blog/why-users-trust-anonymous-instagram-viewing.html</loc>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
- <url>
-    <loc>https://theinstaviewer.com/en/index.html</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  
- <url>
-    <loc>https://theinstaviewer.com/ar/index.html</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
- <url>
-    <loc>https://theinstaviewer.com/antoralgram/index.html</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
+</url>
+<url>
+  <loc>https://theinstaviewer.com/contact.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.44</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/es/</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/ar/</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/tr/</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/how-to-watch-instagram-stories-anonymously-in-2025.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/privacy.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/terms.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.60</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/index.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+   <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/why-users-trust-anonymous-instagram-viewers.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+   <priority>1.00</priority>
+   <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/instagram-privacy-protection-guide-2025.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+   <priority>1.00</priority>
+   <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/best-instagram-story-viewers-2025-comparison.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+   <priority>1.00</priority>
+   <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/is-it-legal-to-use-instanavigation-with-anonymous-instagram-tools.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.88</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/is-using-instanavigation-and-anonymous-insta-story-views-affect-algorithms.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/how-location-tags-skyrocket-your-insta-story-visibility-in-2025.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/mastering-instagram-seo-in-2025.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.88</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/blog/how-to-conduct-competitor-analysis-on-instagram-using-ig-story-viewer.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>0.88</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/es/index.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/ar/index.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://theinstaviewer.com/tr/index.html</loc>
+  <lastmod>2025-09-17T19:29:52+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
 
 </urlset>
